@@ -1,0 +1,14 @@
+#'reagent-2024.core/simple-button
+
+cljs꞉reagent-2024.core꞉> 
+#object[HTMLDivElement [object HTMLDivElement]]
+cljs꞉reagent-2024.core꞉> 
+nil
+cljs꞉reagent-2024.core꞉> 
+#'reagent-2024.core/set-text
+
+cljs꞉reagent-2024.core꞉> 
+nil
+cljs꞉reagent-2024.core꞉> 
+"Now what."
+cljs꞉reagent-2024.core꞉> 
