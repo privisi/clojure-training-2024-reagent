@@ -1,183 +1,118 @@
-#'reagent-2024.core/simple-button
-
-cljs꞉reagent-2024.core꞉> 
-#object[HTMLDivElement [object HTMLDivElement]]
-cljs꞉reagent-2024.core꞉> 
+@resp
 nil
 cljs꞉reagent-2024.core꞉> 
-#'reagent-2024.core/set-text
-
+#object[cljs.core.async.impl.channels.ManyToManyChannel]
 cljs꞉reagent-2024.core꞉> 
-nil
+; #object[Error Error: <! used not in (go ...) block]
 cljs꞉reagent-2024.core꞉> 
-"Now what."
+#object[cljs.core.async.impl.channels.ManyToManyChannel]
 cljs꞉reagent-2024.core꞉> 
-nil
+#object[cljs.core.async.impl.channels.ManyToManyChannel]
+cljs꞉reagent-2024.core꞉> 
+Compile Exception: let requires an even number of forms in binding vector
+; class clojure.lang.ExceptionInfo
+cljs꞉reagent-2024.core꞉> 
+#object[cljs.core.async.impl.channels.ManyToManyChannel]
 cljs꞉reagent-2024.core꞉> 
 ; Evaluating file: core.cljs
 nil
 cljs꞉reagent-2024.core꞉> 
-; Evaluating file: core.cljs
-nil
+#object[cljs.core.async.impl.channels.ManyToManyChannel]
+cljs꞉reagent-2024.core꞉> 
+@resp
+{:status 200,
+ :success true,
+ :body {:lucky-number 699, :a-set #{"foo" :baz 1 [:reagent-2024.app-server/a :reagent-2024.app-server/b]}},
+ :headers
+ {"cache-control" "no-cache",
+  "content-type" "application/edn",
+  "date" "Wed, 14 Feb 2024 14:48:01 GMT",
+  "server" "Jetty(9.4.36.v20210114)",
+  "transfer-encoding" "chunked"},
+ :trace-redirects ["http://localhost:9500/api/random" "http://localhost:9500/api/random"],
+ :error-code :no-error,
+ :error-text ""}
+cljs꞉reagent-2024.core꞉> 
+#object[cljs.core.async.impl.channels.ManyToManyChannel]
+cljs꞉reagent-2024.core꞉> 
+#object[cljs.core.async.impl.channels.ManyToManyChannel]
+cljs꞉reagent-2024.core꞉> 
+#object[cljs.core.async.impl.channels.ManyToManyChannel]
+cljs꞉reagent-2024.core꞉> 
+#object[cljs.core.async.impl.channels.ManyToManyChannel]
+cljs꞉reagent-2024.core꞉> 
+#object[cljs.core.async.impl.channels.ManyToManyChannel]
+cljs꞉reagent-2024.core꞉> 
+#object[cljs.core.async.impl.channels.ManyToManyChannel]
+cljs꞉reagent-2024.core꞉> 
+{:status 200,
+ :success true,
+ :body {:lucky-number 295, :a-set #{"foo" :baz 1 [:reagent-2024.app-server/a :reagent-2024.app-server/b]}},
+ :headers
+ {"cache-control" "no-cache",
+  "content-type" "application/edn",
+  "date" "Wed, 14 Feb 2024 14:48:50 GMT",
+  "server" "Jetty(9.4.36.v20210114)",
+  "transfer-encoding" "chunked"},
+ :trace-redirects ["http://localhost:9500/api/random" "http://localhost:9500/api/random"],
+ :error-code :no-error,
+ :error-text ""}
+cljs꞉reagent-2024.core꞉> 
+::foo
+:reagent-2024.core/foo
+cljs꞉reagent-2024.core꞉> 
+:fasdasdsa/asddsa
+:fasdasdsa/asddsa
+cljs꞉reagent-2024.core꞉> 
+(name :AAA/dsa)
+; #object[Error Error: No protocol method IMapEntry.-key defined for type cljs.core/Keyword: :reagent-2024.core/AAA]
+cljs꞉reagent-2024.core꞉> 
+"AAA"
+cljs꞉reagent-2024.core꞉> 
+"AAA"
+cljs꞉reagent-2024.core꞉> 
+"dsa"
+cljs꞉reagent-2024.core꞉> 
+:dsaasd
+:dsaasd
+cljs꞉reagent-2024.core꞉> 
+::ASDADS
+:reagent-2024.core/ASDADS
+cljs꞉reagent-2024.core꞉> 
+:number
+::number
+cljs꞉reagent-2024.core꞉> 
+:reagent-2024.core/number
 cljs꞉reagent-2024.core꞉> 
 ; Evaluating file: core.cljs
 nil
 cljs꞉reagent-2024.core꞉> 
+Don't know how to handle event:  {:type :increment}
+Don't know how to handle event:  {:type :increment}
+Don't know how to handle event:  {:type :increment}
+Don't know how to handle event:  {:type :increment}
+Don't know how to handle event:  {:type :increment}
+Don't know how to handle event:  {:type :increment}
 ; Evaluating file: core.cljs
 nil
 cljs꞉reagent-2024.core꞉> 
-; Evaluating file: core.cljs
-nil
-cljs꞉reagent-2024.core꞉> 
-; Evaluating file: core.cljs
-nil
-cljs꞉reagent-2024.core꞉> 
-; WARNING: Use of undeclared Var reagent-2024.core/swap at line 1 <cljs repl>
-;
-; #object[TypeError TypeError: Cannot read properties of undefined (reading 'call')]
-;
-; 	 (<NO_SOURCE_FILE>)
-cljs꞉reagent-2024.core꞉> 
-1
-cljs꞉reagent-2024.core꞉> 
-2
-cljs꞉reagent-2024.core꞉> 
-3
-cljs꞉reagent-2024.core꞉> 
-4
-cljs꞉reagent-2024.core꞉> 
-5
-cljs꞉reagent-2024.core꞉> 
-6
-cljs꞉reagent-2024.core꞉> 
-7
-cljs꞉reagent-2024.core꞉> 
-8
-cljs꞉reagent-2024.core꞉> 
-9
-cljs꞉reagent-2024.core꞉> 
-10
-cljs꞉reagent-2024.core꞉> 
-11
-cljs꞉reagent-2024.core꞉> 
-11
-cljs꞉reagent-2024.core꞉> 
-#'reagent-2024.core/simple-button
-
-cljs꞉reagent-2024.core꞉> 
-#'reagent-2024.core/simple-button
-
-cljs꞉reagent-2024.core꞉> 
-#'reagent-2024.core/simple-button
-
-cljs꞉reagent-2024.core꞉> 
-#object[reagent_2024.core.simple_button]
-cljs꞉reagent-2024.core꞉> 
-; Jacking in...
-; Connecting using "Leiningen + Figwheel Main" project type.
-; You can make Calva auto-select this.
-;   - See https://calva.io/connect-sequences/
-;
-; Starting Jack-in Terminal: pushd d:\Visual Studio Code\reagent-2024.core & cmd.exe /d /c lein update-in :dependencies conj [nrepl,"1.0.0"] -- update-in :dependencies conj [cider/piggieback,"0.5.3"] -- update-in :plugins conj [cider/cider-nrepl,"0.28.5"] -- update-in [:repl-options,:nrepl-middleware] conj '["cider.nrepl/cider-middleware"]' -- update-in [:repl-options,:nrepl-middleware] conj '["cider.piggieback/wrap-cljs-repl"]' -- repl :headless & popd
-; nREPL connection failed: Error: read ECONNRESET
-; Failed connecting.
-; nREPL Connection was closed
-; Jacking in...
-; Connecting using "Leiningen + Figwheel Main" project type.
-; You can make Calva auto-select this.
-;   - See https://calva.io/connect-sequences/
-;
-; Starting Jack-in Terminal: pushd d:\Visual Studio Code\reagent-2024.core & cmd.exe /d /c lein update-in :dependencies conj [nrepl,"1.0.0"] -- update-in :dependencies conj [cider/piggieback,"0.5.3"] -- update-in :plugins conj [cider/cider-nrepl,"0.28.5"] -- update-in [:repl-options,:nrepl-middleware] conj '["cider.nrepl/cider-middleware"]' -- update-in [:repl-options,:nrepl-middleware] conj '["cider.piggieback/wrap-cljs-repl"]' -- with-profile +dev repl :headless & popd
-; Using host:port 127.0.0.1:56393 ...
-; Hooking up nREPL sessions ...
-; Connected session: clj
-; TIPS:
-;   - You can edit the contents here. Use it as a REPL if you like.
-;   - `alt+enter` evaluates the current top level form.
-;   - `ctrl+enter` evaluates the current form.
-;   - `alt+up` and `alt+down` traverse up and down the REPL command history
-;      when the cursor is after the last contents at the prompt
-;   - Clojure lines in stack traces are peekable and clickable.
-; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
-nil
-clj꞉user꞉> 
-clj꞉user꞉> 
-; Creating cljs repl session...
-; Connecting cljs repl: Leiningen + Figwheel Main...
-;   The Calva Connection Log might have more connection progress information.
-; Starting cljs repl for: Leiningen + Figwheel Main...
-; CLJS REPL ready to connect. Please, start your ClojureScript app.
-;   Open the app on this URL: http://localhost:9500
-;   The CLJS REPL will connect when your app is running.
-; Evaluating file: core.cljs
-; Syntax error (FileNotFoundException) compiling at (core.cljs:1:1).
-; Could not locate goog/dom__init.class, goog/dom.clj or goog/dom.cljc on classpath.
-; Evaluation of file core.cljs failed: class clojure.lang.Compiler$CompilerException
-clj꞉reagent-2024.core꞉> 
-; Cljs builds started
-; Connected session: cljs, repl: :dev
-; TIPS: You can choose which REPL to use (clj or cljs):
-;    *Calva: Toggle REPL connection*
-;    (There is a button in the status bar for this)
-; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.cljs'
-nil
-cljs꞉cljs.user꞉> 
-; Evaluating file: core.cljs
-; Jack-in done.
-cljs꞉cljs.user꞉> 
-nil
-cljs꞉reagent-2024.core꞉> 
-; Evaluating file: core.cljs
-; WARNING: Use of undeclared Var cljs.core.async.impl.timers/timeout at line 90 file:/C:/Users/fireb/.m2/repository/org/clojure/core.async/1.6.681/core.async-1.6.681.jar!/cljs/core/async.cljs
-; WARNING: Use of undeclared Var cljs.core.async/alts! at line 203 file:/C:/Users/fireb/.m2/repository/org/clojure/core.async/1.6.681/core.async-1.6.681.jar!/cljs/core/async.cljs
-; WARNING: Use of undeclared Var cljs.core.async/nop at line 233 file:/C:/Users/fireb/.m2/repository/org/clojure/core.async/1.6.681/core.async-1.6.681.jar!/cljs/core/async.cljs
-; WARNING: Use of undeclared Var cljs.core.async/nop at line 240 file:/C:/Users/fireb/.m2/repository/org/clojure/core.async/1.6.681/core.async-1.6.681.jar!/cljs/core/async.cljs
-; WARNING: Use of undeclared Var cljs.core.async/close! at line 256 file:/C:/Users/fireb/.m2/repository/org/clojure/core.async/1.6.681/core.async-1.6.681.jar!/cljs/core/async.cljs
-; WARNING: Use of undeclared Var cljs.core.async/close! at line 268 file:/C:/Users/fireb/.m2/repository/org/clojure/core.async/1.6.681/core.async-1.6.681.jar!/cljs/core/async.cljs
-; WARNING: Use of undeclared Var cljs.core.async/close! at line 272 file:/C:/Users/fireb/.m2/repository/org/clojure/core.async/1.6.681/core.async-1.6.681.jar!/cljs/core/async.cljs
-nil
-cljs꞉reagent-2024.core꞉> 
-; Evaluating file: core.cljs
-nil
-cljs꞉reagent-2024.core꞉> 
-; Evaluating file: core.cljs
-nil
-cljs꞉reagent-2024.core꞉> 
-; Evaluating file: core.cljs
-nil
-cljs꞉reagent-2024.core꞉> 
-; Evaluating file: core.cljs
-nil
-cljs꞉reagent-2024.core꞉> 
-; Evaluating file: core.cljs
-nil
-cljs꞉reagent-2024.core꞉> 
-12
-cljs꞉cljs.user꞉> 
-13
-cljs꞉cljs.user꞉> 
-14
-cljs꞉reagent-2024.core꞉> 
-Don't know how to handle event:  {:type :incrementdsa}
-nil
-cljs꞉reagent-2024.core꞉> 
-nil
-cljs꞉reagent-2024.core꞉> 
-nil
-cljs꞉reagent-2024.core꞉> 
-nil
-cljs꞉reagent-2024.core꞉> 
-nil
-cljs꞉reagent-2024.core꞉> 
-nil
-cljs꞉reagent-2024.core꞉> 
-; Evaluating file: core.cljs
-nil
-cljs꞉reagent-2024.core꞉> 
-; Evaluating file: core.cljs
-nil
-cljs꞉reagent-2024.core꞉> 
-{:foo {:bar "The new bar"}, :baz "BAZ", :quux "QUUX"}
-cljs꞉cljs.core.async꞉> 
-{:foo {:bar "The new bar"}, :baz "A new key appears", :quux "QUUX"}
-cljs꞉reagent-2024.core꞉> 
+; Evaluating file: app_server.clj
+#'reagent-2024.app-server/handler
+clj꞉reagent-2024.app-server꞉> 
+; Evaluating file: app_server.clj
+#'reagent-2024.app-server/handler
+clj꞉reagent-2024.app-server꞉> 
+I've been called!
+I've been called!
+I've been called!
+I've been called!
+I've been called!
+I've been called!
+I've been called!
+I've been called!
+I've been called!
+I've been called!
+I've been called!
+I've been called!
+I've been called!
+I've been called!

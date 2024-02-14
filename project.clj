@@ -11,7 +11,12 @@
                  [cljsjs/react "17.0.2-0"]
                  [cljsjs/react-dom "17.0.2-0"]
                  [reagent "1.1.1"]
-                 [org.clojure/core.async "1.6.681"]]
+                 [org.clojure/core.async "1.6.681"]
+
+                 [cljs-http "0.1.46"]
+                 [compojure "1.6.1"]
+                 [ring/ring-defaults "0.3.2"]
+                 [hiccup "1.0.5"]]
 
   :source-paths ["src"]
 
