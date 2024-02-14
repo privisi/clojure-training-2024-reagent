@@ -8,33 +8,10 @@
 ;; which can sometimes be useful.
 (enable-console-print!)
 
-(println "This text is printed from src/reagent_2024/core.cljs. Go ahead and edit it and see reloading in action.")
-
-(defn multiply [a b] (* a b))
-
 ;; define your app data so that it doesn't get over-written on reload
 (defonce app-state (atom {:text "Hello paul!"}))
 
-(defn get-app-element []
-  (gdom/getElement "app"))
-
-#_(defn simple-button []
-  [:div
-   [:center
-    [:h1 "Simple button example"]
-    [:input {:type  :button
-             :class :button
-             :value "Push me!"}]
-    [:div#the-text "Now what."]]])
-
-;; https://google.github.io/closure-library/api/goog.dom.html
-
-;; We can manipulate our DOM in real time remotely: watch this!
-#_
-(-> (gdom/getElement "the-text")
-    (gdom/setTextContent "Hello"))
-
-;; So we can write a function to change the text:
+;;; Slightly more modern: event listeners
 
 
 (defn set-text [id text]
@@ -56,9 +33,22 @@
     [:h1 "Simple button example"]
     [:input {:type     :button
              :class    :button
-             :value    "Push me!"
-             :on-click #(increment-field "the-text")}]
+             :value    "Push me!"}]
     [:div#the-text 0]]])
+
+;; This somewhat decouples the presentation from the "action",
+;; but there is still no great place to store the state (currently
+;; stored in the text div itself!)
+
+;; Also, the listeners add up and are not named, so if we reload this
+;; we now increment by multiple values.  Hard to track bugs.  Can do
+
+(js/addEventListener "click" #(increment-field "the-text"))
+
+(defonce the-incrementer
+  (js/addEventListener "click" #(increment-field "the-text")))
+
+;; But it still more or less sucks.
 
 (defn hello-world []
   [:div
@@ -67,6 +57,9 @@
    [:h3 "To infinity, and beyond! " (/ 1 0)]
    [:h3 "We're not in Kansas anymore: (+ 1 nil) " (+ 1 nil) " should be a type error..."]
    [:p "Go watch this talk: " [:a {:href  "https://www.destroyallsoftware.com/talks/wat"} "Wat!?"]]])
+
+(defn get-app-element []
+  (gdom/getElement "app"))
 
 (defn mount [el]
   (rdom/render [simple-button] el))
