@@ -10,7 +10,8 @@
                  [org.clojure/clojurescript "1.11.4"]
                  [cljsjs/react "17.0.2-0"]
                  [cljsjs/react-dom "17.0.2-0"]
-                 [reagent "1.1.1"]]
+                 [reagent "1.1.1"]
+                 [org.clojure/core.async "1.6.681"]]
 
   :source-paths ["src"]
 
