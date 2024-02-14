@@ -8,24 +8,13 @@
 ;; which can sometimes be useful.
 (enable-console-print!)
 
-;; define your app data so that it doesn't get over-written on reload
-(defonce app-state (atom {:text "Hello paul!"}))
 
-;;; Slightly more modern: event listeners
+;;; The React framework
+;;; (and it's clojurescript friend: Reagent)
 
+;; Let us declare our state globally:
+(defonce the-counter (atom 0))
 
-(defn set-text [id text]
-  (-> (gdom/getElement id)
-      (gdom/setTextContent text)))
-
-(defn get-value [id]
-  (-> (gdom/getElement id)
-      (gdom/getTextContent)
-      (js/parseInt)))
-
-(defn increment-field [id]
-  (let [old-count (get-value id)]
-    (set-text id (inc old-count))))
 
 (defn simple-button []
   [:div
@@ -34,29 +23,23 @@
     [:input {:type     :button
              :class    :button
              :value    "Push me!"}]
-    [:div#the-text 0]]])
+    [:div#the-text @the-counter]]])
 
-;; This somewhat decouples the presentation from the "action",
-;; but there is still no great place to store the state (currently
-;; stored in the text div itself!)
+;; Components have a very interesting property; they form a VIRTUAL DOM
+;; and the React library maintains consistency between the virtual DOM
+;; and the real DOM.  If the virtual dom is modified, the browser follows:
+;; to wit:
 
-;; Also, the listeners add up and are not named, so if we reload this
-;; we now increment by multiple values.  Hard to track bugs.  Can do
+#_(defn simple-button []
+    [:div
+     [:center
+      [:h1 "Simple button example"]
+      [:input {:type :button :class :button :value "Push me!"
+               :on-click #(swap! the-counter inc)}]
+      [:div#the-text @the-counter]]])
 
-(js/addEventListener "click" #(increment-field "the-text"))
-
-(defonce the-incrementer
-  (js/addEventListener "click" #(increment-field "the-text")))
-
-;; But it still more or less sucks.
-
-(defn hello-world []
-  [:div
-   [:h1 (:text @app-state)]
-   [:h3 "Edit this in src/reagent_2024/core.cljs and watch it change!"]
-   [:h3 "To infinity, and beyond! " (/ 1 0)]
-   [:h3 "We're not in Kansas anymore: (+ 1 nil) " (+ 1 nil) " should be a type error..."]
-   [:p "Go watch this talk: " [:a {:href  "https://www.destroyallsoftware.com/talks/wat"} "Wat!?"]]])
+;; OK - now we need a way to abstract away the "what" of the
+;; button push.  Remember core.async?
 
 (defn get-app-element []
   (gdom/getElement "app"))

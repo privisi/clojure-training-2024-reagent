@@ -32,3 +32,44 @@ cljs꞉reagent-2024.core꞉> 
 ; Evaluating file: core.cljs
 nil
 cljs꞉reagent-2024.core꞉> 
+; WARNING: Use of undeclared Var reagent-2024.core/swap at line 1 <cljs repl>
+;
+; #object[TypeError TypeError: Cannot read properties of undefined (reading 'call')]
+;
+; 	 (<NO_SOURCE_FILE>)
+cljs꞉reagent-2024.core꞉> 
+1
+cljs꞉reagent-2024.core꞉> 
+2
+cljs꞉reagent-2024.core꞉> 
+3
+cljs꞉reagent-2024.core꞉> 
+4
+cljs꞉reagent-2024.core꞉> 
+5
+cljs꞉reagent-2024.core꞉> 
+6
+cljs꞉reagent-2024.core꞉> 
+7
+cljs꞉reagent-2024.core꞉> 
+8
+cljs꞉reagent-2024.core꞉> 
+9
+cljs꞉reagent-2024.core꞉> 
+10
+cljs꞉reagent-2024.core꞉> 
+11
+cljs꞉reagent-2024.core꞉> 
+11
+cljs꞉reagent-2024.core꞉> 
+#'reagent-2024.core/simple-button
+
+cljs꞉reagent-2024.core꞉> 
+#'reagent-2024.core/simple-button
+
+cljs꞉reagent-2024.core꞉> 
+#'reagent-2024.core/simple-button
+
+cljs꞉reagent-2024.core꞉> 
+#object[reagent_2024.core.simple_button]
+cljs꞉reagent-2024.core꞉> 
